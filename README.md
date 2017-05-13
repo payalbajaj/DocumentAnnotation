@@ -3,7 +3,7 @@
 ### Set-up the directory:
 You need to have Apache server installed. Windows users can use ```wampserver``` and linux users can use ```xampp```.
 
-Add the contents of the repo to the ```www``` fodler in your system.
+Add the contents of the repo to the ```www``` folder in your system.
 
 
 ### Set-up annotation:
@@ -13,9 +13,9 @@ Add the names of all these images in ```file_paths.txt.```
 
 Run ```sort_file_names.py``` to sort the file names. The sorted image names are stored in ```sorted_file_paths.txt```.
 
-Run ```python server.py --filename name``` where name is the destaination to save the annotations. The file name can be used to denote what is being annotated - tables, figures, etc.
+Run ```python server.py --filename name``` where ```name``` is the destination to save the annotations. The file name can be used to denote what is being annotated - tables, figures, etc.
 
-Go to ```http://localhost/annotation.html``` and you should see the first image for annotation
+Go to ```http://localhost/annotation.html``` and you should see the first image for annotation.
 
 
 ### Annotation:
