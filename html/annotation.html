@@ -172,6 +172,11 @@ window.onkeypress = function(event) {
     document.getElementById("rendered-pdf").src=image_names[i];
    	i++;  
    }
+   else if(event.keyCode == 112 || event.keyCode == 80){
+   	document.getElementById("all-cords").innerHTML = "";
+    $('.selected-box').remove();
+    selectedBoxes = [];
+   }
 }
 
 </script>
